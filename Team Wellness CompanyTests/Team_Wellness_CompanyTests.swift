@@ -6,7 +6,6 @@
 //
 
 import Testing
-@testable import Team_Wellness_Company
 
 struct Team_Wellness_CompanyTests {
 

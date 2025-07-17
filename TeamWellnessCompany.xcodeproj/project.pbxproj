@@ -24,23 +24,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		767BE4982E27E28700BEFC00 /* Team Wellness Company.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Team Wellness Company.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		767BE4A52E27E28800BEFC00 /* Team Wellness CompanyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Team Wellness CompanyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		767BE4AF2E27E28800BEFC00 /* Team Wellness CompanyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Team Wellness CompanyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		767BE4D42E27E56B00BEFC00 /* TeamWellnessCompany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamWellnessCompany.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D3D84C2E27E677008CEDD4 /* TeamWellnessCompanyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamWellnessCompanyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D3D84D2E27E677008CEDD4 /* TeamWellnessCompanyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamWellnessCompanyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		767BE49A2E27E28700BEFC00 /* Team Wellness Company */ = {
+		767BE4CE2E27E2E400BEFC00 /* TeamWellnessCompany */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Team Wellness Company";
+			path = TeamWellnessCompany;
 			sourceTree = "<group>";
 		};
-		767BE4A82E27E28800BEFC00 /* Team Wellness CompanyTests */ = {
+		767BE4D02E27E2E400BEFC00 /* Team Wellness CompanyTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Team Wellness CompanyTests";
 			sourceTree = "<group>";
 		};
-		767BE4B22E27E28800BEFC00 /* Team Wellness CompanyUITests */ = {
+		767BE4D32E27E2E400BEFC00 /* Team Wellness CompanyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Team Wellness CompanyUITests";
 			sourceTree = "<group>";
@@ -75,29 +75,21 @@
 		767BE48F2E27E28700BEFC00 = {
 			isa = PBXGroup;
 			children = (
-				767BE49A2E27E28700BEFC00 /* Team Wellness Company */,
-				767BE4A82E27E28800BEFC00 /* Team Wellness CompanyTests */,
-				767BE4B22E27E28800BEFC00 /* Team Wellness CompanyUITests */,
-				767BE4992E27E28700BEFC00 /* Products */,
+				767BE4CE2E27E2E400BEFC00 /* TeamWellnessCompany */,
+				767BE4D02E27E2E400BEFC00 /* Team Wellness CompanyTests */,
+				767BE4D32E27E2E400BEFC00 /* Team Wellness CompanyUITests */,
+				767BE4D42E27E56B00BEFC00 /* TeamWellnessCompany.app */,
+				76D3D84C2E27E677008CEDD4 /* TeamWellnessCompanyTests.xctest */,
+				76D3D84D2E27E677008CEDD4 /* TeamWellnessCompanyUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		767BE4992E27E28700BEFC00 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				767BE4982E27E28700BEFC00 /* Team Wellness Company.app */,
-				767BE4A52E27E28800BEFC00 /* Team Wellness CompanyTests.xctest */,
-				767BE4AF2E27E28800BEFC00 /* Team Wellness CompanyUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		767BE4972E27E28700BEFC00 /* Team Wellness Company */ = {
+		767BE4972E27E28700BEFC00 /* TeamWellnessCompany */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 767BE4B92E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "Team Wellness Company" */;
+			buildConfigurationList = 767BE4B92E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "TeamWellnessCompany" */;
 			buildPhases = (
 				767BE4942E27E28700BEFC00 /* Sources */,
 				767BE4952E27E28700BEFC00 /* Frameworks */,
@@ -108,18 +100,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				767BE49A2E27E28700BEFC00 /* Team Wellness Company */,
+				767BE4CE2E27E2E400BEFC00 /* TeamWellnessCompany */,
 			);
-			name = "Team Wellness Company";
+			name = TeamWellnessCompany;
 			packageProductDependencies = (
 			);
 			productName = "Team Wellness Company";
-			productReference = 767BE4982E27E28700BEFC00 /* Team Wellness Company.app */;
+			productReference = 767BE4D42E27E56B00BEFC00 /* TeamWellnessCompany.app */;
 			productType = "com.apple.product-type.application";
 		};
-		767BE4A42E27E28800BEFC00 /* Team Wellness CompanyTests */ = {
+		767BE4A42E27E28800BEFC00 /* TeamWellnessCompanyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 767BE4BC2E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "Team Wellness CompanyTests" */;
+			buildConfigurationList = 767BE4BC2E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "TeamWellnessCompanyTests" */;
 			buildPhases = (
 				767BE4A12E27E28800BEFC00 /* Sources */,
 				767BE4A22E27E28800BEFC00 /* Frameworks */,
@@ -130,19 +122,16 @@
 			dependencies = (
 				767BE4A72E27E28800BEFC00 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				767BE4A82E27E28800BEFC00 /* Team Wellness CompanyTests */,
-			);
-			name = "Team Wellness CompanyTests";
+			name = TeamWellnessCompanyTests;
 			packageProductDependencies = (
 			);
 			productName = "Team Wellness CompanyTests";
-			productReference = 767BE4A52E27E28800BEFC00 /* Team Wellness CompanyTests.xctest */;
+			productReference = 76D3D84C2E27E677008CEDD4 /* TeamWellnessCompanyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		767BE4AE2E27E28800BEFC00 /* Team Wellness CompanyUITests */ = {
+		767BE4AE2E27E28800BEFC00 /* TeamWellnessCompanyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 767BE4BF2E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "Team Wellness CompanyUITests" */;
+			buildConfigurationList = 767BE4BF2E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "TeamWellnessCompanyUITests" */;
 			buildPhases = (
 				767BE4AB2E27E28800BEFC00 /* Sources */,
 				767BE4AC2E27E28800BEFC00 /* Frameworks */,
@@ -153,14 +142,11 @@
 			dependencies = (
 				767BE4B12E27E28800BEFC00 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				767BE4B22E27E28800BEFC00 /* Team Wellness CompanyUITests */,
-			);
-			name = "Team Wellness CompanyUITests";
+			name = TeamWellnessCompanyUITests;
 			packageProductDependencies = (
 			);
 			productName = "Team Wellness CompanyUITests";
-			productReference = 767BE4AF2E27E28800BEFC00 /* Team Wellness CompanyUITests.xctest */;
+			productReference = 76D3D84D2E27E677008CEDD4 /* TeamWellnessCompanyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 767BE4932E27E28700BEFC00 /* Build configuration list for PBXProject "Team Wellness Company" */;
+			buildConfigurationList = 767BE4932E27E28700BEFC00 /* Build configuration list for PBXProject "TeamWellnessCompany" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -196,13 +182,13 @@
 			mainGroup = 767BE48F2E27E28700BEFC00;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 767BE4992E27E28700BEFC00 /* Products */;
+			productRefGroup = 767BE48F2E27E28700BEFC00;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				767BE4972E27E28700BEFC00 /* Team Wellness Company */,
-				767BE4A42E27E28800BEFC00 /* Team Wellness CompanyTests */,
-				767BE4AE2E27E28800BEFC00 /* Team Wellness CompanyUITests */,
+				767BE4972E27E28700BEFC00 /* TeamWellnessCompany */,
+				767BE4A42E27E28800BEFC00 /* TeamWellnessCompanyTests */,
+				767BE4AE2E27E28800BEFC00 /* TeamWellnessCompanyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +244,12 @@
 /* Begin PBXTargetDependency section */
 		767BE4A72E27E28800BEFC00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 767BE4972E27E28700BEFC00 /* Team Wellness Company */;
+			target = 767BE4972E27E28700BEFC00 /* TeamWellnessCompany */;
 			targetProxy = 767BE4A62E27E28800BEFC00 /* PBXContainerItemProxy */;
 		};
 		767BE4B12E27E28800BEFC00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 767BE4972E27E28700BEFC00 /* Team Wellness Company */;
+			target = 767BE4972E27E28700BEFC00 /* TeamWellnessCompany */;
 			targetProxy = 767BE4B02E27E28800BEFC00 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,6 +381,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7C8RHPVHC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -407,11 +394,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "twelly.Team-Wellness-Company";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twc.teamwellnesscompany.mac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -422,6 +411,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7C8RHPVHC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,11 +424,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "twelly.Team-Wellness-Company";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twc.teamwellnesscompany.mac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
@@ -456,7 +448,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Team Wellness Company.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Team Wellness Company";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamWellnessCompany.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeamWellnessCompany";
 			};
 			name = Debug;
 		};
@@ -474,7 +466,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Team Wellness Company.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Team Wellness Company";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamWellnessCompany.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TeamWellnessCompany";
 			};
 			name = Release;
 		};
@@ -513,7 +505,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		767BE4932E27E28700BEFC00 /* Build configuration list for PBXProject "Team Wellness Company" */ = {
+		767BE4932E27E28700BEFC00 /* Build configuration list for PBXProject "TeamWellnessCompany" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				767BE4B72E27E28800BEFC00 /* Debug */,
@@ -522,7 +514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		767BE4B92E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "Team Wellness Company" */ = {
+		767BE4B92E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "TeamWellnessCompany" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				767BE4BA2E27E28800BEFC00 /* Debug */,
@@ -531,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		767BE4BC2E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "Team Wellness CompanyTests" */ = {
+		767BE4BC2E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "TeamWellnessCompanyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				767BE4BD2E27E28800BEFC00 /* Debug */,
@@ -540,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		767BE4BF2E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "Team Wellness CompanyUITests" */ = {
+		767BE4BF2E27E28800BEFC00 /* Build configuration list for PBXNativeTarget "TeamWellnessCompanyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				767BE4C02E27E28800BEFC00 /* Debug */,
